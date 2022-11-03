@@ -60,3 +60,10 @@ int pointsJeuRec(const Jeu &j, int indice){
     else
         return 0;
 }
+
+void prendreUnDomino(Jeu& j, int indice){
+    for(std::vector<Domino>::iterator it = j.tabDominos.begin(); it !=j.tabDominos.end(); it++)
+        afficherUnDomino(*it);
+    //j.tabDominos.erase(j.tabDominos.begin()+indice);
+}
+

@@ -30,3 +30,5 @@ int pointsJeu (const Jeu& j);
 
 int pointsJeuRec(const Jeu &j, int indice);
 
+void prendreUnDomino(Jeu& j, int indice);
+
