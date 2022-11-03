@@ -54,3 +54,9 @@ int pointsJeu (const Jeu& j)
 
     return points;
 }
+int pointsJeuRec(const Jeu &j, int indice){
+    if(indice>=0)
+        return pointsDomino(j.tabDominos[indice]) + pointsJeuRec(j, -1);
+    else
+        return 0;
+}

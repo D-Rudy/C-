@@ -12,7 +12,7 @@ int main(){
         jeu = creerJeuPioche();
         afficherJeu(jeu);
 
-        cout<<"points = " << pointsJeu(jeu);
+        cout<<"points = " << pointsJeuRec(jeu, jeu.tabDominos.size());
 
         return 0;
 }

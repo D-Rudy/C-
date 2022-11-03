@@ -28,3 +28,5 @@ int pointsDomino (const Domino& d);
 
 int pointsJeu (const Jeu& j);
 
+int pointsJeuRec(const Jeu &j, int indice);
+
